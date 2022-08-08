@@ -1,0 +1,11 @@
+body{
+    background-color: darkcyan;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    /* margin: 90px; */
+}
+.content{
+    font-size: 56px;
+    color: rgb(48, 9, 48);
+}

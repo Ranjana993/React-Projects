@@ -1,0 +1,32 @@
+body{
+    background-color: darkblue;
+}
+
+.container{
+    background-color: lightcoral;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 45px;
+}
+input , .btn{
+    margin-top: 23px;
+    padding: 6px;
+    margin-left: 11px;
+    margin-right: 12px;
+    outline: none;
+}
+.btn{
+    border-radius: 23px;
+    width: 120px;
+    height: 33px;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    
+}
+button:hover{
+    background-color: white;
+    color: darkcyan;
+    cursor: pointer;
+}

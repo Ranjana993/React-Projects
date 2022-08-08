@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(10, 12, 12);
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(2, 2, 7, 0.97);
+  color: white;
+  box-shadow: 1px -2px 2px 4px rgb(17, 17, 17);
+}
+
+.nav-doc {
+  display: flex;
+  align-items: center;
+  color: rgb(11, 202, 205);
+  margin-left: 20px;
+
+}
+
+.nav-doc>h2 {
+  padding: 7px 13px;
+}
+
+.title {
+  margin-right: 23px;
+  word-spacing: 9px;
+}
+
+.title>ul>li {
+  list-style: none;
+  color: rgb(236, 227, 227);
+}
+
+.main {
+  margin-left: 5rem;
+  word-spacing: 5px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.header {
+  font-size: 22px;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+}
+
+.list {
+  padding-top: 2px;
+  margin-top: 2px;
+}
+
+.list>ul>li::marker {
+  color: rgb(11, 202, 205);
+  font-size: 25px;
+}

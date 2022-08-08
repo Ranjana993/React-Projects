@@ -1,0 +1,72 @@
+.Movie__Components {
+    margin: 63px;
+}
+
+.cards {
+    display: flex;
+    margin-left: 13px;
+    margin-right: 23px;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 12px;
+    height: 400px;
+    width: 400px;
+    margin: 12px;
+    border: 2px solid gray;
+
+}
+
+.card:hover {
+    background: #6a798c;
+    border: 2px white;
+}
+
+a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    color: white;
+    transform: translateY(-1rem);
+    display: inline-block;
+}
+
+.card>img {
+    margin-top: 23px;
+    height: 300px;
+    width: 300px;
+}
+
+.card>img:hover {
+    transform: scale(1.1);
+
+}
+
+@media screen and (max-width:756px) {
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        padding: 18px;
+        height: 456px;
+        width: 450px;
+        margin: 22px;
+
+    }
+
+    .card>img {
+        margin-top: 23px;
+        height: 350px;
+        width: 300px;
+    }
+}

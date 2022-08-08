@@ -1,0 +1,23 @@
+.cards{
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 12px;
+}
+.card{
+    padding: 12px;
+    border-radius: 12px;
+    margin: 12px;
+    background-color: aqua;
+    height: 400px;
+    width: 450px;
+}
+h4{
+    margin-bottom: 12px;
+    text-align: center;
+}
+.card >img{
+    height: 300px;
+    width: 450px;
+}

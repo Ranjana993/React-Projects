@@ -1,0 +1,117 @@
+.Add__User {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form>label {
+    font-size: 29px;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+
+form>input {
+    height: 43px;
+    width: 817px;
+    border-radius: 4px;
+    text-indent: 12px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.btn>button {
+    margin-top: 23px;
+    margin-right: 23px;
+    height: 53px;
+    width: 180px;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.btn>.btn1 {
+    background-color: darkgray;
+
+}
+
+.btn>.btn2 {
+    background-color: red;
+    border-radius: 12px;
+}
+
+
+
+/* EDIT USER ..... */
+.edit__btn {
+    margin-right: 23px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+.btn1{
+    margin-top: 22px;
+    background-color: rgb(51, 46, 46);
+    color: white;
+    height: 53px;
+    width: 170px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    margin-right: 12px;
+}
+.btn2{
+    background-color: red;
+    color: white;
+    height: 53px;
+    border: none;
+    outline: none;
+    width: 180px;
+    font-size: 20px;
+    padding: 13px;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+/* HomeHeading....... */
+
+.container{
+    margin: auto;
+    margin-top: 10rem;
+    background-color: rgb(38, 33, 33);
+    height: 60px;
+    width: 900px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 26px;
+    text-align: center;
+}
+.container> .home__btn {
+    margin-right: 32px;
+    height: 47px;
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 3px;
+    width: 130px;
+    background-color: rgb(56, 56, 231);
+    
+}
+.container>span {
+    margin-left: 23px;
+    margin-top: 12px;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.App {
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  background-color: #6c22b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 23px;
+}
+
+.main__card {
+  background-color: hwb(0 36% 22%);
+  height: 90px;
+  width: 400px;
+  margin: 7rem auto;
+  position: relative;
+  top: 45px;
+  align-items: center;
+  border-radius: 23px;
+  padding: 13px;
+}
+
+h2 {
+  color: rgb(3, 80, 118);
+  margin-top: 34px;
+}
+

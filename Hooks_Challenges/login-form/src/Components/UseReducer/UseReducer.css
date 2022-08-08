@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(78, 40, 40);
+    color: white;
+}
+
+.center {
+    font-size: 34px;
+    text-align: center;
+}
+
+button {
+    background-color: darkcyan;
+    height: 43px;
+    width: 100px;
+    margin: 23px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: darkblue;
+}

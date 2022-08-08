@@ -1,0 +1,80 @@
+.home__container {
+    height: 843px;
+    width: 1220px;
+    margin-bottom: -44px;
+}
+
+.background__Image {
+    height: 826px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(3, 2, 2);
+}
+
+.background__Image>img {
+    height: 858px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+
+}
+
+.background__Image>.p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 210px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: -855px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 39px;
+    width: 240px;
+    font-size: 14px;
+    color: black;
+    border: 1px solid;
+    outline: none;
+    background-color: rgb(101, 57, 3);
+    border-radius: 12px;
+}
+
+.btn:hover {
+    background-color: white;
+    outline: none;
+    color: rgb(101, 57, 3);
+
+}
+
+@media screen and (max-width:765px) {
+    .home__container {
+        height: 843px;
+        width: 399px;
+        margin-bottom: -90px;
+    }
+
+    .background__Image>img {
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+        width: 520px;
+        overflow: hidden;
+
+    }
+
+    .background__Image>.p {
+        margin: auto;
+        margin-top: 424px;
+        position: relative;
+    }
+}

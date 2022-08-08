@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: rgb(112, 7, 128);
+  justify-content: space-between;
+  color: white;
+  width: 100vw;
+
+}
+
+.sidebar {
+  display: flex;
+}
+
+.sidebar>img {
+  margin-top: 13px;
+  margin-right: 6px;
+  margin-left: 8px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.nav--title {
+  margin-right: 45px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 13px;
+  margin: 12px;
+  padding: 23px;
+}
+
+.form-btn {
+  grid-column: 1 / -1;
+  height: 45px;
+  background-color: rgb(112, 7, 128);
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-family: "Karla"sans-serif;
+}
+
+.form-input {
+  border-radius: 1px solid #D5D4D8;
+  outline: none;
+  text-indent: 13px;
+}
+
+.meme-img {
+  display: grid;
+  grid-template:100px 1fr / 50px 1fr;
+  justify-content: center;
+  margin: 12px;
+  padding: 23px;
+  width: 1147px;
+  height: 800px;
+}

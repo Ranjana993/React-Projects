@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(3, 67, 41);
+}
+
+h1 {
+  text-shadow: 1px 1px 3px grey;
+  color: rgb(238, 176, 176);
+  text-transform: uppercase;
+  margin: 23px;
+}
+
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.cards {
+  margin-left: auto;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow: auto;
+
+}
+
+button {
+  background-color: hwb(147 16% 31%);
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 12px;
+  border-radius: 23px;
+  color: white;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: green;
+}
+
+.card {
+  width: 700px;
+  height: 350px;
+  background-color: hsl(161, 47%, 23%);
+  margin: 23px;
+  padding: 34px;
+  box-shadow: 0px 1px 4px 1px lightslategrey;
+
+}
+
+ul>li,
+h2 {
+  display: flex;
+  list-style: none;
+  line-height: 3;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h2 {
+  color: darkblue;
+  /* font-size: 34px; */
+}
+
+span {
+  font-size: 18px;
+  margin-left: 25px;
+  color: rgb(238, 201, 186);
+  cursor: pointer;
+}
+
+ul>li:hover {
+  color: darkgoldenrod;
+}
+
+@media screen and (max-width: 800px) {
+
+  .cards {
+    text-align: center;
+  }
+
+  .card {
+    width: 308px;
+    height: 400px;
+    background-color: hsl(161, 47%, 23%);
+    margin: 34px 42px;
+    padding: 19px;
+    box-shadow: 0px 1px 4px 1px lightslategrey;
+    text-align: center;
+    align-items: center;
+
+  }
+
+  h2 {
+    margin-left: 22px;
+  }
+
+  ul>li {
+    display: flex;
+    list-style: none;
+    line-height: 3;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 29px;
+  }
+}
